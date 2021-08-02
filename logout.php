@@ -19,7 +19,7 @@
             text: "Logged Out Successfully!",
             type: "success"
         }).then(function() {
-            window.location.href = "http://localhost:7882/PROJECT/login.php";
+            window.location.href = "login.php";
         });
     </script>
     <?php

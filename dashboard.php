@@ -41,7 +41,6 @@
         }
         .dashboard .w-100{
             display:flex;
-            width: 1000px;
         }
         .w-100 .w-25{
             height:200px;

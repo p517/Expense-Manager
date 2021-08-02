@@ -105,7 +105,7 @@
     <body>
         <div class="text-center mt-5 display-4 text-primary">Feedback</div>
         <div class="container1 shadow-lg p-5 mb-5 bg-light rounded">
-            <form action="http://localhost:7882/PROJECT/semail.php" method = "post">
+            <form action="semail.php" method = "post">
                 <div class="form-group row">
                     <div class="col-md-4">
                         <label for="cc">Add a review</label>

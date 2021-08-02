@@ -111,19 +111,9 @@
                         $login = false;
                     }
                 }   
-                // $_SESSION['email'] = $email;
             }
             if(isset($_POST["login"])){
                 if($login){
-                    // echo '<script>
-                    //     swal({
-                    //         title: "Success!",
-                    //         text: "Logged in Successfully!",
-                    //         type: "success"
-                    //     }).then(function() {
-                    //         window.location.href = "signup.php";
-                    //     });
-                    //     </script>';
                     $password = $_POST["password"];
                     $sql = "SELECT * FROM `user_form` WHERE password='$password'";
                     $result = mysqli_query($conn, $sql);
@@ -147,7 +137,7 @@
                             text: "TRY AGAIN.",
                             type: "error"
                         }).then(function() {
-                            window.location.href = "http://localhost:7882/PROJECT/login.php";
+                            window.location.href = "login.php";
                         });
                         </script>';
                 }

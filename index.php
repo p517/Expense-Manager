@@ -18,7 +18,6 @@
         }
         .buttons {
             text-align: right;
-            padding-left: 633px;
         }
         .image img {
             height: 88vh;
@@ -127,14 +126,20 @@
         }
         .footer .icons span a i{
         }
+        .nav-heading{
+            width: 60% !important;
+        }
+        .nav-buttons{
+            width: 30% !important;
+        }
     </style>
 </head>
 
 <body>
     <div class="header bg-dark">
         <img src="images/img5.png" width="70px" height="70px" alt="" class="p-3">
-        <h1 class="text-white p-1">Expense Management System</h1>
-        <div class="buttons">
+        <h1 class="text-white p-1 nav-heading">Expense Management System</h1>
+        <div class="buttons nav-buttons">
             <button type="button" class="btn btn-primary m-3 text-center py-2" name="login"><a
                     href="login.php">Login</a></button>
             <button type="button" class="btn btn-primary m-3 text-center py-2" name="signup"><a
